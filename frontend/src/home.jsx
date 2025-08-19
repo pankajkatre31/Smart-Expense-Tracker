@@ -42,7 +42,7 @@ export default function Home() {
   const [error, setError] = useState(null);
 
   // --- API URL ---
-  const API_URL = 'http://127.0.0.1:5000/api/expenses';
+  const API_URL = '/.netlify/functions/expenses';
 
   // --- Data Fetching ---
   const fetchExpenses = useCallback(async () => {
