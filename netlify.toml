@@ -1,3 +1,11 @@
 # netlify.toml
+
+# Build settings for your frontend app
+[build]
+  base    = "frontend"
+  publish = "frontend/build"
+  command = "npm run build"
+
+# Function settings for your backend
 [functions]
   directory = "netlify/functions"
