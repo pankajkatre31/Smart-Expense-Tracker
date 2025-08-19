@@ -3,7 +3,7 @@
 # Build settings for your frontend app
 [build]
   base    = "frontend"
-  publish = "frontend/build"
+  publish = "build"         # ✅ only "build", not "frontend/build"
   command = "npm run build"
 
 # Function settings for your backend
